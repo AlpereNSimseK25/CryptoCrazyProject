@@ -45,6 +45,7 @@ def getDataThreading(urls):
         elapsedTime = endTime - startTime
         print(f"Çalışma zamanı: {elapsedTime} saniye")
 
+
 urls = ["https://postman-echo.com/delay/3"]*10 # bu sitede 3 saniye gecikme ile çalışır
 #getDataSync(urls) Çalışma zamanı: 33.604796171188354 saniye
 #getDataThreading(urls) Çalışma zamanı: 3.717952013015747 saniye
